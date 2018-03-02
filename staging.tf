@@ -26,7 +26,7 @@ module "pub_sn_a" {
 module "pub_sn_b" {
   source  = "./subnet"
   vpc_id  = "${aws_vpc.main.id}"
-  sn_cidr = "192.168.2.0/23 "
+  sn_cidr = "192.168.2.0/23"
   sn_name = "PUB_SN_B"
 }
 
